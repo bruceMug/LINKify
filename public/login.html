@@ -8,11 +8,29 @@
     <title>Document</title>
 </head>
 <body>
-      <div class="container text-center d-flex justify-content-center align-items-center" style="height: 90vh;">
+      <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
         <div class="row">
-          <div class=" offset-md-3 border border-primary">I am centered
+          <div class=" offset-md-1 bg-secondary-subtle rounded-4" style="width: 70vh;">
 
-            
+            <form>
+              <div class="p-5 ps-3 pt-4">
+              <div class="mb-4">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" class="form-control" id="username">
+              </div>
+
+              <div class="mb-4">
+                <label for="secretcode" class="form-label">Secret-code</label>
+                <input type="password" class="form-control" id="secretcode">
+                <div id="emailHelp" class="form-text">*Contact Admin for code</div>
+              </div>
+
+              <div class="text-center">
+                <button type="submit" class="btn btn-info ps-4 px-4 rounded-4">login</button>
+              </div>
+            </div>
+            </form>
+
           </div>
         </div>
       </div>
