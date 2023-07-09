@@ -3,3 +3,13 @@ img {
   width: 40px;
   height: 40px;
 }
+
+#copyicon:hover{
+    cursor: pointer;
+}
+
+#copyMessage1, #copyMessage2, #copyMessage3 {
+    display: none;
+    color: green;
+    font-weight: bold;
+}
